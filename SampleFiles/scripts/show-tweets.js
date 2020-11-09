@@ -1,9 +1,9 @@
 console.log(tweets)
 const tweet1 = () => {
     //console.log(tweets.statuses[0])
-    document.querySelector('#tweet3 .message').innerHTML = tweets.statuses[0].text
-    document.querySelector('#tweet3 .username').innerHTML = tweets.statuses[0].user.screen_name
-    document.querySelector('#tweet3 .date').innerHTML = tweets.statuses[0].created_at
+    document.querySelector('#tweet1 .message').innerHTML = tweets.statuses[0].text
+    document.querySelector('#tweet1 .username').innerHTML = tweets.statuses[0].user.screen_name
+    document.querySelector('#tweet1 .date').innerHTML = tweets.statuses[0].created_at
 }
 
 const tweet2 = () => {
@@ -17,9 +17,9 @@ const tweet2 = () => {
 
 const tweet3 = () => {
     //TODO: output the contents of the third tweet below the second one:
-    document.querySelector('#tweet1 .message').innerHTML = tweets.statuses[2].text
-    document.querySelector('#tweet1 .username').innerHTML = tweets.statuses[2].user.screen_name
-    document.querySelector('#tweet1 .date').innerHTML = tweets.statuses[2].created_at
+    document.querySelector('#tweet3 .message').innerHTML = tweets.statuses[2].text
+    document.querySelector('#tweet3 .username').innerHTML = tweets.statuses[2].user.screen_name
+    document.querySelector('#tweet3 .date').innerHTML = tweets.statuses[2].created_at
 }
 
 const showAll = () => {
